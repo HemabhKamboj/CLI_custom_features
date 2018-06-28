@@ -30,3 +30,6 @@ def change():
 	os.system("/usr/bin/gsettings set org.gnome.desktop.background picture-uri file:///"+full_path)
 
 change()
+
+def run_wallpaperwebscrapping():
+	get_image()
