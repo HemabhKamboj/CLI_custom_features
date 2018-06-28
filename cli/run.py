@@ -5,7 +5,8 @@ from packages import (
     run_openweatherapi,
     run_newsapi,
     run_youtubedownload,
-    run_wallpaperwebscrapping
+    run_wallpaperwebscrapping,
+    run_movieapi,
 )
 
 import cmd
@@ -32,11 +33,16 @@ class customcli(cmd.Cmd):
         "news"
         run_newsapi()
 
-    def do_quotes(self, arg):
-        "quote"
+    def do_movie(self, arg):
+        "movie ratings"
+        run_movieapi()        
+
+
+    def do_quote(self, arg):
+        ""
         run_quotewebscrapping()
 
-    def do_wallpapers(self, arg):
+    def do_wallpaper(self, arg):
         "change my wallpaper"
         run_wallpaperwebscrapping()
 
@@ -44,7 +50,7 @@ class customcli(cmd.Cmd):
         "exit"
         return -1
 
-    def do_ytdownload(self, arg):
+    def do_download(self, arg):
         "download youtube videos"
         run_youtubedownload()       
 
