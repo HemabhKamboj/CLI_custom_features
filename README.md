@@ -6,6 +6,10 @@ In terminal, type "./run.py" followed by "username". Failure of giving username 
 
 Following are the features and there corresponding commands available in this custom CLI shell.
 
+
+
+
+
        |        Features         |        command          |       
        | ----------------------- | ----------------------- |
        | local news (by city)    |        news             |
