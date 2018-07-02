@@ -11,7 +11,7 @@ Following are the features and there corresponding commands available in this cu
 
 
        |        Features         |        command          |       
-       | ----------------------- | ----------------------- |
+       |:-----------------------:|:-----------------------:|
        | local news (by city)    |        news             |
        | weather (by city)       |       weather           |
        | wallpaper of the day    |  change my wallpaper    |
