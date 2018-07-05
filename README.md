@@ -19,4 +19,4 @@ Following are the features and there corresponding commands available in this cu
        | download youtube videos | download youtube videos |
        | movie ratings           |     movie ratings       |
        
-       change wallpaper may not work in Windows and MacOS devices.
+       change my wallpaper may not work in Windows and MacOS devices.
