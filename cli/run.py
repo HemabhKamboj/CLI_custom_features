@@ -43,7 +43,7 @@ class customcli(cmd.Cmd):
         run_quotewebscrapping()
 
     def do_wallpaper(self, arg):
-        "change my wallpaper"
+        "wallpaper"
         run_wallpaperwebscrapping()
 
     def do_exit(self, arg):
