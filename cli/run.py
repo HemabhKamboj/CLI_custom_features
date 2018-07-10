@@ -7,6 +7,11 @@ from packages import (
     run_youtubedownload,
     run_wallpaperwebscrapping,
     run_movieapi,
+    run_crypto,
+    run_hackathon,
+    run_wiki,
+    run_stocks,
+    facebook,
 )
 
 import cmd
@@ -52,8 +57,28 @@ class customcli(cmd.Cmd):
 
     def do_download(self, arg):
         "download youtube videos"
-        run_youtubedownload()       
+        run_youtubedownload()    
 
+    def do_stocks(self, arg):
+        "stock prices"    
+        run_stocks
+
+    def do_crypto(self, arg):
+        "crypto prices"
+        run_crypto
+
+    def do_hackathons(self, arg):
+        "upcoming hackathons"
+        run_hackathon
+
+    def do_wiki(self, arg):
+        "wikipedia"
+        run_wiki
+
+    def do_facebook(self, arg):
+        "facebook"
+        facebook
+                 
     def precmd(self, line):
         """ It is called after the input but before
             it has been interpreted. If you want to modify the input line
