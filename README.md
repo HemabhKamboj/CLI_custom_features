@@ -10,7 +10,7 @@ Following are the features and there corresponding commands available in this cu
 
 
 
-       |        Features         |        command          |       
+       |        Features         |        command          |
        |:-----------------------:|:-----------------------:|
        | local news (by city)    |        news             |
        | weather (by city)       |       weather           |
@@ -18,5 +18,11 @@ Following are the features and there corresponding commands available in this cu
        | quote of the day        |       quote             |
        | download youtube videos | download youtube videos |
        | movie ratings           |     movie ratings       |
+       | facebook login		 |	facebook	   |
+       | hackathons list 	 |   upcoming hackathon	   |
+       | wikipedia search 	 |       wikipedia	   |
+       | stock prices		 |     stock prices        |
+       | cryptocurrency prices   |	crypto prices	   |
+	
        
-       change my wallpaper will not work in Windows and MacOS devices. (Edit path of backgrounds for MacOS)
+       change my wallpaper, facebook login and hackathons list  will not work in Windows and MacOS devices. (Edit path of backgrounds for MacOS).
