@@ -25,4 +25,4 @@ Following are the features and there corresponding commands available in this cu
         cryptocurrency prices   :  crypto prices	   
 	
      
-## change my wallpaper, facebook login and hackathons list  will not work in Windows and MacOS devices. (Edit path of backgrounds for MacOS).
+## change my wallpaper, facebook login and hackathons list  will not work in Windows and MacOS devices. 
